@@ -25,7 +25,7 @@ export function main() {
     console.log("*****************************************************");
     console.log("                                                     ");
 
-    console.log('Entre com a opção desejada',colors.reset);
+    console.log('Entre com a opção desejada:',colors.reset);
     opcao = readlinesync.questionInt("")
 
     if (opcao === 9) {
